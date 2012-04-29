@@ -3,7 +3,7 @@
 /**
  * PEAR_Exception
  *
- * PHP versions 4 and 5
+ * PHP version 5
  *
  * @category   pear
  * @package    PEAR_Exception
@@ -13,7 +13,6 @@
  * @author     Greg Beaver <cellog@php.net>
  * @copyright  1997-2009 The Authors
  * @license    http://opensource.org/licenses/bsd-license.php New BSD License
- * @version    CVS: $Id$
  * @link       http://pear.php.net/package/PEAR_Exception
  * @since      File available since Release 1.0.0
  */
