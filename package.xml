@@ -53,8 +53,7 @@ and use nothing from the PEAR package then it&apos;s better to depend on just PE
     <exclude>5.1.5</exclude>
    </php>
    <pearinstaller>
-    <min>1.9.3</min>
-    <exclude>1.9.3</exclude>
+    <min>1.9.5</min>
    </pearinstaller>
   </required>
  </dependencies>
