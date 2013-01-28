@@ -1,0 +1,24 @@
+{
+    "name": "pear/pear_exception",
+    "description": "The PEAR Exception base class.",
+    "type": "class",
+    "keywords": [ "exception" ],
+    "homepage": "https://github.com/pear/PEAR_Exception",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Helgi Thormar",
+            "email": "dufuz@php.net"
+        },
+        {
+            "name": "Greg Beaver",
+            "email": "cellog@php.net"
+        }
+    ],
+    "require": {
+        "php": ">=4.4.0"
+    },
+    "autoload": {
+        "psr-0": { "PEAR": "" }
+    }
+}
