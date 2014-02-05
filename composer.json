@@ -4,7 +4,7 @@
     "type": "class",
     "keywords": [ "exception" ],
     "homepage": "https://github.com/pear/PEAR_Exception",
-    "license": "BSD-3-Clause",
+    "license": "BSD-2-Clause",
     "authors": [
         {
             "name": "Helgi Thormar",
@@ -20,6 +20,11 @@
     },
     "autoload": {
         "psr-0": { "PEAR": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
     },
     "include-path": ["."]
 }
