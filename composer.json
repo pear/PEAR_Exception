@@ -18,8 +18,7 @@
         }
     ],
     "require": {
-        "php": ">=4.4.0",
-        "pear/pear_exception": "*"
+        "php": ">=4.4.0"
     },
     "autoload": {
         "psr-0": {
