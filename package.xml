@@ -18,10 +18,10 @@
   <email>cellog@php.net</email>
   <active>no</active>
  </developer>
- <date>2012-05-10</date>
- <time>09:21:48</time>
+ <date>2014-02-21</date>
+ <time>18:40:40</time>
  <version>
-  <release>1.0.0beta1</release>
+  <release>1.0.0beta2</release>
   <api>1.0.0</api>
  </version>
  <stability>
@@ -53,12 +53,25 @@ and use nothing from the PEAR package then it&apos;s better to depend on just PE
     <exclude>5.1.5</exclude>
    </php>
    <pearinstaller>
-    <min>1.9.4</min>
+    <min>1.9.5</min>
    </pearinstaller>
   </required>
  </dependencies>
  <phprelease />
  <changelog>
+  <release>
+   <version>
+    <release>1.0.0beta2</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>stable</api>
+   </stability>
+   <date>2014-02-21</date>
+   <license uri="http://opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>Bump up PEAR dependency.</notes>
+  </release>
   <release>
    <version>
     <release>1.0.0beta1</release>
