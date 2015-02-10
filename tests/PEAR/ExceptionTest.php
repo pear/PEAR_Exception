@@ -2,8 +2,9 @@
 $localFile = __DIR__ . '/../../PEAR/Exception.php';
 if (file_exists($localFile)) {
     require_once $localFile;
+} else {
+    require_once 'PEAR/Exception.php';
 }
-//require_once 'PEAR/Exception.php';
 
 class PEAR_ExceptionTest extends PHPUnit_Framework_TestCase
 {
