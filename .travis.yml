@@ -15,5 +15,8 @@ jobs:
     - php: 5.5
       dist: trusty
 
+install:
+  - composer install --prefer-dist --no-progress
+
 script:
-  - cd tests && vendor/bin/phpunit --coverage-text .
+  - cd tests && ../vendor/bin/phpunit --coverage-text .
