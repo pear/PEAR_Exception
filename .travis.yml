@@ -19,4 +19,4 @@ install:
   - composer install --prefer-dist --no-progress
 
 script:
-  - cd tests && ../vendor/bin/phpunit --coverage-text .
+  - vendor/bin/phpunit --coverage-text tests
