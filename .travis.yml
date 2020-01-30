@@ -16,4 +16,4 @@ jobs:
       dist: trusty
 
 script:
-  - cd tests && phpunit --coverage-text .
+  - cd tests && vendor/bin/phpunit --coverage-text .
