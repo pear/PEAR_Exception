@@ -29,10 +29,9 @@
   <active>no</active>
  </developer>
 
- <date>2015-02-10</date>
- <time>21:02:23</time>
+ <date>2021-03-21</date>
  <version>
-  <release>1.0.0</release>
+  <release>1.0.2</release>
   <api>1.0.0</api>
  </version>
  <stability>
@@ -41,9 +40,7 @@
  </stability>
  <license uri="http://opensource.org/licenses/bsd-license.php">New BSD License</license>
  <notes>
-  This package was split out from the PEAR package.
-  If you use PEAR_Exception in your package and use nothing from the PEAR package
-  then it's better to depend on just PEAR_Exception.
+* PR #11:  Fixes PHP warning for 8.1+
  </notes>
  <contents>
   <dir  name="/">
@@ -72,6 +69,22 @@
  <phprelease />
 
  <changelog>
+  <release>
+   <version>
+    <release>1.0.2</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2021-03-21</date>
+   <license uri="http://opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+* PR #11:  Fixes PHP warning for 8.1+
+   </notes>
+  </release>
+
   <release>
    <version>
     <release>1.0.0</release>
