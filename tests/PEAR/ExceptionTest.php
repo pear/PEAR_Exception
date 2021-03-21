@@ -5,6 +5,9 @@ if (file_exists($localFile)) {
 } else {
     require_once 'PEAR/Exception.php';
 }
+if (!class_exists('PHPUnit_Framework_TestCase')) {
+    class PHPUnit_Framework_TestCase extends PHPUnit\Framework\TestCase {}
+}
 
 class PEAR_ExceptionTest extends PHPUnit_Framework_TestCase
 {
