@@ -36,6 +36,6 @@
         "source": "https://github.com/pear/PEAR_Exception"
     },
     "require-dev": {
-        "phpunit/phpunit": "<6"
+        "phpunit/phpunit": "<7"
     }
 }
