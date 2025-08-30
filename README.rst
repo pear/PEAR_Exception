@@ -2,7 +2,7 @@
 Base Exception class from PEAR core 
 ******************************
 
-This repository provides just the base PEAR_Exceptoin class from ``pear-core``
+This repository provides just the base PEAR_Exception class from ``pear-core``
 that are often used in PEAR packages.
 
 It follows the `pear-core`__ repository and gets updated whenever a new
