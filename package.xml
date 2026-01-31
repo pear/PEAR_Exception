@@ -11,10 +11,16 @@
  <description>PEAR_Exception PHP5 error handling mechanism</description>
 
  <lead>
+  <name>Chuck Burgess</name>
+  <user>ashnazg</user>
+  <email>ashnazg@php.net</email>
+  <active>yes</active>
+ </lead>
+ <lead>
   <name>Christian Weiske</name>
   <user>cweiske</user>
   <email>cweiske@php.net</email>
-  <active>yes</active>
+  <active>no</active>
  </lead>
  <lead>
   <name>Helgi Thormar</name>
